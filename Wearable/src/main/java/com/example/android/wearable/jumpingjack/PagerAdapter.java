@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.jumpingjack;
+package com.example.android.wearable.jumpingjack;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

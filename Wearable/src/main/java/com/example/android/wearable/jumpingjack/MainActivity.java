@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.example.android.jumpingjack;
+package com.example.android.wearable.jumpingjack;
 
-import com.example.android.jumpingjack.fragments.CounterFragment;
-import com.example.android.jumpingjack.fragments.SettingsFragment;
+import com.example.android.wearable.jumpingjack.fragments.CounterFragment;
+import com.example.android.wearable.jumpingjack.fragments.SettingsFragment;
 
 import android.app.Activity;
 import android.content.Context;
