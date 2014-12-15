@@ -9,4 +9,9 @@ categories:   [Wearable]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-JumpingJack
+level:        INTERMEDIATE
+icon:         screenshots/web-icon.png
+apiRefs:
+    - android:android.hardware.SensorEvent
+    - android:android.hardware.SensorEventManager
 license: apache2
