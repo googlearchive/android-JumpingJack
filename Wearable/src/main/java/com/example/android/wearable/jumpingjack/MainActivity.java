@@ -50,7 +50,7 @@ import java.util.TimerTask;
 public class MainActivity extends Activity
         implements SensorEventListener {
 
-    private static final String TAG = "JJMainActivity";
+    private static final String TAG = "MainActivity";
 
     /** How long to keep the screen on when no activity is happening **/
     private static final long SCREEN_ON_TIMEOUT_MS = 20000; // in milliseconds
@@ -94,9 +94,9 @@ public class MainActivity extends Activity
     }
 
     private void setupViews() {
-        mPager = (ViewPager) findViewById(R.id.pager);
-        mFirstIndicator = (ImageView) findViewById(R.id.indicator_0);
-        mSecondIndicator = (ImageView) findViewById(R.id.indicator_1);
+        mPager = findViewById(R.id.pager);
+        mFirstIndicator = findViewById(R.id.indicator_0);
+        mSecondIndicator = findViewById(R.id.indicator_1);
         final PagerAdapter adapter = new PagerAdapter(getFragmentManager());
         mCounterPage = new CounterFragment();
         mSettingPage = new SettingsFragment();
