@@ -18,13 +18,15 @@ package com.example.android.wearable.jumpingjack;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.support.v13.app.FragmentPagerAdapter;
+
+import androidx.legacy.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A simple adapter for the {@link android.support.v4.view.ViewPager}
+ * A simple adapter for the {@link ViewPager}
  */
 public class PagerAdapter extends FragmentPagerAdapter {
 
